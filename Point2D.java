@@ -1,7 +1,3 @@
-import java.util.Scanner;
-
-
-
 public class Point2D
 {
     private int x;
@@ -15,11 +11,11 @@ public class Point2D
         y = yInput;
     }
 
-    public void showX(){
-        System.out.println(x);
+    public int showX(){
+        return x;
     }
 
-    public void showY(){
-        System.out.println(y);
+    public int showY(){
+        return y;
     }
 }
